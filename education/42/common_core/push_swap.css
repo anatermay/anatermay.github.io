@@ -107,7 +107,7 @@ p, a {
 }
 
 
-
+/*
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -128,3 +128,4 @@ p, a {
         padding: 10px;
     }
 }
+*/
