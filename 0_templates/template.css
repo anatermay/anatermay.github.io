@@ -34,6 +34,11 @@ header {
     font-size: 21px;
 }
 
+img {
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 9px 9px 9px #c0c0c0;
+}
+
 /* classes */
 .button_content {
     align-items: center;
