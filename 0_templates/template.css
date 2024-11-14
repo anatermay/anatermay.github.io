@@ -68,3 +68,11 @@ img {
     width: 210px;
     height: 210px;
 }
+
+#section_a {
+    background-image: url('https://github.com/anatermay/anatermay/raw/main/png/anatermay_header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+}
