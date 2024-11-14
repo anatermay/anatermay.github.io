@@ -23,7 +23,7 @@ header {
     background-color: white;
     color: black;
     font-size: 21px;
-    height: 90px;
+    height: max-content + 18px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -32,13 +32,13 @@ header {
 }
 
 header .left-content {
-    flex: 0 0 45%; /* Ocupa el 45% del ancho */
+    flex: 0 0 30%; /* Ocupa el 30% del ancho */
     display: flex;
     align-items: center;
 }
 
 header .right-content {
-    flex: 1;
+    flex: 1 1 auto; /* Ocupa el resto del espacio */
     display: flex;
     justify-content: flex-end;
     align-items: center;
