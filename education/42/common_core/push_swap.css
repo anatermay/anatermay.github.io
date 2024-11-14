@@ -97,8 +97,8 @@ p, a {
 }
 
 .right_bar {
-    height: 100%;
-    width: 300px;
+    height: max-content;
+    width: 10%;
     background-color: #ffffff;
     box-shadow: #c0c0c0 6px 6px 6px 2px;
     padding: 20px;
@@ -113,7 +113,7 @@ p, a {
 }
 
 .left_bar {
-    width: auto;
+    width: 90%;
     background-color: beige;
     padding: 20px;
     box-shadow: #c0c0c0 6px 6px 6px 2px;
