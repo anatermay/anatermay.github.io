@@ -28,8 +28,9 @@ header {
     background-color: white;
     color: black;
     font-size: 21px;
-    height: auto;
+    height: 120px;
     width: 100%;
+    padding: 0 10px;
     position: fixed;
     top: 0;
     z-index: 1000; /* Asegura que el header esté por encima del contenido */
@@ -39,7 +40,7 @@ header {
 }
 
 header .left-content {
-    flex: 0 0 30%; /* Ocupa el 30% del ancho */
+    flex: 0 0 45%; /* Ocupa el 30% del ancho */
     display: flex;
     align-items: center;
 }
@@ -50,6 +51,7 @@ header .right-content {
     justify-content: flex-end;
     align-items: center;
     margin-right: 18px;
+    margin-left: 9px;
     padding-right: 9px;
 }
 
