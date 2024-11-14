@@ -2,6 +2,9 @@ button {
     background-color: #c0c0c0;
     border: none;
     box-shadow: #000000 3px 3px 3px 3px;
+    margin: 9px 9px 9px 9px;
+    height: 54px;
+    width: 15%;
 }
 
 header {
