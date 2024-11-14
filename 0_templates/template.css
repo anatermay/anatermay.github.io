@@ -25,6 +25,7 @@ button {
 button:hover {
     background-color: #000000;
     color: #ffffff;
+    font-style: normal;
     text-shadow: 3px 3px 3px fuchsia;
     border-color: greenyellow;
     box-shadow: 3px 3px 3px 3px bisque;
