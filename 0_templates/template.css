@@ -30,12 +30,17 @@ header {
     background-color: white;
     color: black;
     font-size: 21px;
-    height: max-content + 18px;
+    height: auto;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1000; /* Asegura que el header esté por encima del contenido */
-    padding: 0 10px; /* Añade un poco de padding a los lados */
+    padding-top: 8px;
+    padding-bottom: 12px;
+    margin-top: 0px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 1px 5px 0px #000000;
 }
 
 header .left-content {
