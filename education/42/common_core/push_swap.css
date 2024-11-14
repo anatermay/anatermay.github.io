@@ -3,7 +3,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif, monospace;
     font-size: 15px;
     width: 100%;
-    margin: 30px;
+    margin: 0px;
+    padding: 0px;
 }
 
 button {
@@ -98,6 +99,9 @@ p, a {
 }
 
 .container {
+    display: flex;
     padding-top: 360px;
     width: 100%;
+    height: auto;
+    padding: 18px;
 }
