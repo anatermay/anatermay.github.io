@@ -24,7 +24,10 @@ button {
 
 button:hover {
     background-color: #000000;
-    color: antiquewhite;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px fuchsia;
+    border-color: greenyellow;
+    box-shadow: 3px 3px 3px 3px bisque;
 }
 
 header {
