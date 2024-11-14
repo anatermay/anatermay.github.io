@@ -7,12 +7,16 @@ body {
 
 button {
     background-color: antiquewhite;
-    box-shadow: 1px 1px 1px 1px antiquewhite;
+    box-shadow: 3px 3px 3px 3px #c0c0c0;
     font-size: 45px;
     font-weight: bold;
     color: #000000;
     padding: 10px 20px;
     margin: 10px;
+    height: 120px;
+    border-radius: 15px 15px 15px 15px;
+    border: none;
+    cursor: pointer;
 }
 
 button:hover {
@@ -27,7 +31,7 @@ header {
     background-color: white;
     color: black;
     font-size: 21px;
-    height: 120px;
+    height: 360px;
     width: 100%;
     padding: 0 10px;
     position: fixed;
@@ -60,9 +64,10 @@ header .right-content a {
 
 .logo_img {
     border-radius: 100% 100% 100% 100%;
-    box-shadow: #000000 3px 3px 3px 3px;
-    width: 90px;
-    height: 90px;
+    box-shadow: #c0c0c0 6px 6px 6px 2px;
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
 }
 
 .cover_img {
