@@ -59,7 +59,7 @@ header .left-content {
 header .right-content {
     flex: 1 1 79%; /* Ocupa el resto del espacio */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-right: 18px;
     margin-left: 9px;
