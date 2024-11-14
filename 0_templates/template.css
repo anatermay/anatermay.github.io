@@ -44,13 +44,13 @@ header {
 }
 
 header .left-content {
-    flex: 0 0 45%; /* Ocupa el 30% del ancho */
+    flex: 0 0 30%; /* Ocupa el 30% del ancho */
     display: flex;
     align-items: center;
 }
 
 header .right-content {
-    flex: 1 1 auto; /* Ocupa el resto del espacio */
+    flex: 1 1 70%; /* Ocupa el resto del espacio */
     display: flex;
     justify-content: space-around;
     align-items: center;
