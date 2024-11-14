@@ -105,3 +105,23 @@ p, a {
     height: auto;
     padding: 18px;
 }
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    header .right-content {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    header .right-content a {
+        margin: 5px 0;
+    }
+}
