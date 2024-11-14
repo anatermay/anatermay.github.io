@@ -28,7 +28,7 @@ button:hover {
     font-style: normal;
     text-shadow: 12px fuchsia;
     border-color: greenyellow;
-    border: 9px;
+    border: 2px solid;
     box-shadow: 3px 3px 3px 3px bisque;
 }
 
