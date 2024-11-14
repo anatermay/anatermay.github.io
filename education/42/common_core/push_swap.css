@@ -78,7 +78,7 @@ header .right-content a {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 120px;
     color: #000000;
     text-align: left;
     padding-left: 12px;
@@ -89,7 +89,7 @@ h1 {
 }
 
 p, a {
-    font-size: 21px;
+    font-size: 45px;
     color: #000000;
     text-align: justify;
     font-family: Georgia, monospace;
