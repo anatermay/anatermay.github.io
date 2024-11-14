@@ -112,7 +112,7 @@ p, a {
 }
 
 .container {
-    display: flex;
+    display: block;
     padding-top: 360px;
     width: 100%;
     height: auto;
