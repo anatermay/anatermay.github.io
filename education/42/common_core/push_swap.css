@@ -124,4 +124,7 @@ p, a {
     header .right-content a {
         margin: 5px 0;
     }
+    .content {
+        padding: 10px;
+    }
 }
