@@ -8,7 +8,7 @@ body {
 }
 
 button {
-    background-color: #c0c0c0;
+    background-color: antiquewhite;
     box-shadow: 1px 1px 1px 1px antiquewhite;
     font-size: 45px;
     font-weight: bold;
@@ -19,7 +19,7 @@ button {
 
 button:hover {
     background-color: #000000;
-    color: #c0c0c0;
+    color: antiquewhite;
 }
 
 header {
@@ -37,6 +37,7 @@ header {
     padding-top: 8px;
     padding-bottom: 12px;
     margin-top: 0px;
+    margin: 9px;
     -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.17);
     -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.17);
     box-shadow: 0px 1px 5px 0px #000000;
