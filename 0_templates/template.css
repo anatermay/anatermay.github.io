@@ -61,7 +61,7 @@ header .right-content a {
     margin-left: 9px; /* Margen entre los botones */
 }
 
-img {
+.logo_img {
     border-radius: 100% 100% 100% 100%;
     box-shadow: #000000 3px 3px 3px 3px;
     width: 210px;
