@@ -111,3 +111,19 @@ p, a {
 .right_bar h1 {
     margin-top: 0;
 }
+
+.left_bar {
+    width: auto;
+    background-color: beige;
+    padding: 20px;
+    box-shadow: #c0c0c0 6px 6px 6px 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.left_bar h1 {
+    margin-top: 0;
+}
