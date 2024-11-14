@@ -76,3 +76,22 @@ header .right-content a {
     height: 300px;
     margin-left: 60px;
 }
+
+h1 {
+    font-size: 45px;
+    color: #000000;
+    text-align: left;
+    padding-left: 12px;
+    margin-left: 12px;
+    font-family: 'Courier New', Courier, monospace
+    font-style: bold;
+    text-shadow: 3px 3px 3px #c0c0c0;
+}
+
+p, a {
+    font-size: 21px;
+    color: #000000;
+    text-align: justify;
+    font-family: Georgia, monospace;
+    font-style: normal;
+}
