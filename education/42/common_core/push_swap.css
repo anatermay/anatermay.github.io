@@ -97,7 +97,6 @@ p, a {
 }
 
 .right_bar {
-    height: max-content;
     width: 10%;
     background-color: #ffffff;
     box-shadow: #c0c0c0 6px 6px 6px 2px;
@@ -121,7 +120,6 @@ p, a {
     top: 0;
     left: 0;
     overflow-y: auto;
-    height: 100%;
 }
 
 .left_bar h1 {
