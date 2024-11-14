@@ -29,6 +29,7 @@ button:hover {
     border-color: greenyellow;
     border: 2px solid;
     box-shadow: 3px 3px 3px 3px bisque;
+    cursor: hand;
 }
 
 header {
