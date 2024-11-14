@@ -95,3 +95,10 @@ p, a {
     font-family: Georgia, monospace;
     font-style: normal;
 }
+
+.right_bar {
+    height: 100%;
+    width: 30%;
+    background-color: #ffffff;
+    box-shadow: #c0c0c0 6px 6px 6px 2px;
+}
