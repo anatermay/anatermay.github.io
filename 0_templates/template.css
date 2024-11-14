@@ -42,17 +42,18 @@ img {
 /* classes */
 .button_content {
     align-items: center;
-    background-color: #c0c0c0;
-    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-style: bold;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .lheader, .rheader {
     background-color: white;
     color: black;
     font-size: 21px;
-    width: 50%;
+    width: 100%;
 }
 .lheader {
     align-items: left;
@@ -77,6 +78,18 @@ img {
 /* ids */
 
 /* parallax */
+
+.content {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	height: min-content;
+	padding-top: 50px;
+}
 
 .parallax {
 	display: flex;
