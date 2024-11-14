@@ -24,9 +24,8 @@ button {
 
 button:hover {
     background-color: #000000;
-    color: #ffffff;
-    font-style: normal;
-    text-shadow: 12px fuchsia;
+    color: fuchsia;
+    font-style: bold;
     border-color: greenyellow;
     border: 2px solid;
     box-shadow: 3px 3px 3px 3px bisque;
