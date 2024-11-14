@@ -3,6 +3,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif, monospace;
     font-size: 15px;
     width: 100%;
+    margin: 0;
 }
 
 button {
@@ -15,6 +16,7 @@ button {
     margin: 10px;
     height: 120px;
     width: 300px;
+    padding: 10px 20px;
     border-radius: 15px 15px 15px 15px;
     border: none;
     cursor: pointer;
@@ -35,7 +37,7 @@ header {
     height: 360px;
     width: 100%;
     padding: 0 10px;
-    position: relative;
+    position: static;
     top: 0;
     z-index: 1000; /* Asegura que el header esté por encima del contenido */
     -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.17);
@@ -44,13 +46,13 @@ header {
 }
 
 header .left-content {
-    flex: 0 0 30%; /* Ocupa el 30% del ancho */
+    flex: 0 0 21%; /* Ocupa el 30% del ancho */
     display: flex;
     align-items: center;
 }
 
 header .right-content {
-    flex: 1 1 70%; /* Ocupa el resto del espacio */
+    flex: 1 1 79%; /* Ocupa el resto del espacio */
     display: flex;
     justify-content: space-around;
     align-items: center;
