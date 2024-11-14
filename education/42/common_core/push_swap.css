@@ -4,7 +4,6 @@ body {
     font-size: 15px;
     width: 100%;
     margin: 30px;
-    padding: 360px;
 }
 
 button {
@@ -96,4 +95,9 @@ p, a {
     font-family: Georgia, monospace;
     font-style: normal;
     text-decoration: none;
+}
+
+.container {
+    padding-top: 360px;
+    width: 90%;
 }
