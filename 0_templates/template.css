@@ -1,5 +1,4 @@
 body {
-    margin-top: 90px; /* Compensa la altura del header */
     background-color: beige;
     font-family: Georgia, 'Times New Roman', Times, serif, monospace;
     font-size: 15px;
@@ -62,8 +61,8 @@ header .right-content a {
 .logo_img {
     border-radius: 100% 100% 100% 100%;
     box-shadow: #000000 3px 3px 3px 3px;
-    width: 210px;
-    height: 210px;
+    width: 90px;
+    height: 90px;
 }
 
 .cover_img {
