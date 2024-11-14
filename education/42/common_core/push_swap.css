@@ -1,7 +1,7 @@
 body {
     background-color: beige;
     font-family: Georgia, 'Times New Roman', Times, serif, monospace;
-    font-size: 15px;
+    font-size: 45px;
     width: 100%;
     margin: 0px;
     padding-top: 360px;
@@ -106,8 +106,6 @@ p, a {
     padding: 18px;
 }
 
-
-/*
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -124,8 +122,8 @@ p, a {
     header .right-content a {
         margin: 5px 0;
     }
-    .content {
-        padding: 10px;
+
+    .container {
+        padding-top: 20px; /* Ajusta el padding-top para compensar el header */
     }
 }
-*/
