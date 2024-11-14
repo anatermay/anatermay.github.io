@@ -1,17 +1,13 @@
 /* elements */
 html, body {
-    align-items: center;
     background-color: beige;
     color: black;
-    display: flex;
     font-family: Cormorant GC, monospace;
     font-size: 15px;
     font-style: normal;
     height: 100%;
-    justify-content: center;
     margin: 12px;
     padding: 12px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     width: 100%;
 }
 
@@ -24,8 +20,7 @@ button {
     cursor: pointer;
     font-size: 15px;
     font-style: bold;
-    margin: 5px;
-    padding: 5px;
+    text-align: center;
 }
 
 header {
@@ -57,7 +52,6 @@ img {
     background-color: white;
     color: black;
     font-size: 21px;
-    width: 50%;
 }
 .lheader {
     align-items: left;
