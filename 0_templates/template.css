@@ -1,3 +1,12 @@
+body {
+    margin-top: 90px; /* Compensa la altura del header */
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif, monospace;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+}
+
 button {
     background-color: #c0c0c0;
     border: none;
@@ -8,8 +17,35 @@ button {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    height: 90px;
     width: 100%;
-    height: 99px;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Asegura que el header esté por encima del contenido */
+    padding: 0 10px; /* Añade un poco de padding a los lados */
+}
+
+header .left-content {
+    flex: 0 0 45%; /* Ocupa el 45% del ancho */
+    display: flex;
+    align-items: center;
+}
+
+header .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .right-content a {
+    margin-left: 9px; /* Margen entre los botones */
 }
 
 img {
