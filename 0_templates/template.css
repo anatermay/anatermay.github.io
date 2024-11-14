@@ -26,8 +26,7 @@ button:hover {
     background-color: #000000;
     color: fuchsia;
     font-style: bold;
-    border-color: greenyellow;
-    border: 2px solid;
+    border: 9px solid greenyellow;
     box-shadow: 3px 3px 3px 3px bisque;
     cursor: hand;
 }
